@@ -71,7 +71,11 @@ static const struct {
 	{ TRANSCODE_VIDEO_CODECS, "transcode_video_codecs"},
 	{ TRANSCODE_VIDEOTRANSCODER, "transcode_video_transcoder"},
 	{ TRANSCODE_IMAGE, "transcode_image"},
-	{ TRANSCODE_IMAGETRANSCODER, "transcode_image_transcoder"}
+	{ TRANSCODE_IMAGETRANSCODER, "transcode_image_transcoder"},
+	{ ICON_PNG_SM, "icon_png_small" },
+	{ ICON_PNG_LRG, "icon_png_large" },
+	{ ICON_JPEG_SM, "icon_jpeg_small" },
+	{ ICON_JPEG_LRG, "icon_jpeg_large" }
 };
 
 int

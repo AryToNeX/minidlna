@@ -64,7 +64,11 @@ enum upnpconfigoptions {
 	TRANSCODE_VIDEO_CODECS,		/* video codecs that needs to be transcoded */
 	TRANSCODE_VIDEOTRANSCODER,	/* video transcoder */
 	TRANSCODE_IMAGE,			/* image files that needs to be transcoded */
-	TRANSCODE_IMAGETRANSCODER	/* image transcoder */
+	TRANSCODE_IMAGETRANSCODER,	/* image transcoder */
+	ICON_PNG_SM,			/* path to small png icon */
+	ICON_PNG_LRG,			/* path to large png icon */
+	ICON_JPEG_SM,			/* path to small jpeg icon */
+	ICON_JPEG_LRG,			/* path to large jpeg icon */
 };
 
 /* readoptionsfile()
